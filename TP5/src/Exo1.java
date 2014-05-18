@@ -40,7 +40,7 @@ public class Exo1 {
 	}
 	
     public static void afficheCollV2(Collection<String> c){
-    	System.out.println("Affichage d'un" + (c instanceof ArrayList<?> ? "e Arraylist " : " HashSet") + "avec un itérateur :\n");
+    	System.out.println("Affichage d'un" + (c instanceof ArrayList<?> ? "e Arraylist " : " HashSet") + " avec un itérateur :\n");
     	Iterator<String> i = c.iterator();
     	while (i.hasNext()){
     		System.out.println(i.next());
